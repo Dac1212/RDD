@@ -1,0 +1,28 @@
+	(1)
+VARIABLES	recidivism
+	
+D	-0.0354
+	(0.0374)
+bac1	0.193
+	(0.341)
+Dbac1	-0.127
+	(0.734)
+bac1sq	-2.605
+	(4.012)
+Dbac1sq	3.888
+	(4.895)
+male	0.0331***
+	(0.00200)
+white	0.0111***
+	(0.00245)
+aged	-0.000757***
+	(7.32e-05)
+acc	1.74e-05
+	(0.00281)
+Constant	0.107***
+	(0.00729)
+	
+Observations	124,642
+R-squared	0.003
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

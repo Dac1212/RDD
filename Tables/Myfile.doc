@@ -1,0 +1,135 @@
+{\rtf1\ansi\deff0 {\fonttbl{\f0\fnil Garamond;}}
+{\info {\author .}{\company .}{\title .}}
+\deflang1033\plain\fs20
+{\footer\pard\qc\plain\f0\fs20\chpgn\par}
+{
+{\b\qc\line  }{\par}
+\fs20 {Computing data-driven bandwidth selectors.}\line
+\fs20 {RD Manipulation Test using local polynomial density estimation.}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx1500
+\fs20\pard\intbl\ql {Cutoff c = .08 }\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx2700
+\fs20\pard\intbl\ql {Left}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx3900
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx5100
+\fs20\pard\intbl\ql {c}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx6300
+\fs20\pard\intbl\ql {Right}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx7500
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx8700
+\fs20\pard\intbl\ql {c}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx9900
+\fs20\pard\intbl\ql {Number}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx11100
+\fs20\pard\intbl\ql {of}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx12300
+\fs20\pard\intbl\ql {obs}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx13500
+\fs20\pard\intbl\ql {=}\cell
+\clbrdrt\brdrw10\brdrs\clbrdrb\brdrw25\brdrs\cellx14700
+\fs20\pard\intbl\ql {214558}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Number of obs }\cell
+\cellx2700
+\fs20\pard\intbl\ql {23010}\cell
+\cellx3900
+\fs20\pard\intbl\ql {191548}\cell
+\cellx5100
+\fs20\pard\intbl\ql {BW}\cell
+\cellx6300
+\fs20\pard\intbl\ql {method}\cell
+\cellx7500
+\fs20\pard\intbl\ql {=}\cell
+\cellx8700
+\fs20\pard\intbl\ql {comb}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Eff. Number of obs}\cell
+\cellx2700
+\fs20\pard\intbl\ql {8895}\cell
+\cellx3900
+\fs20\pard\intbl\ql {13730}\cell
+\cellx5100
+\fs20\pard\intbl\ql {Kernel}\cell
+\cellx6300
+\fs20\pard\intbl\ql {=}\cell
+\cellx7500
+\fs20\pard\intbl\ql {triangular}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx1500
+\fs20\pard\intbl\ql {Order est. (p)}\cell
+\cellx2700
+\fs20\pard\intbl\ql {2}\cell
+\cellx3900
+\fs20\pard\intbl\ql {2}\cell
+\cellx5100
+\fs20\pard\intbl\ql {VCE}\cell
+\cellx6300
+\fs20\pard\intbl\ql {method}\cell
+\cellx7500
+\fs20\pard\intbl\ql {=}\cell
+\cellx8700
+\fs20\pard\intbl\ql {jackknife}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Order bias (q) }\cell
+\cellx5400
+\fs20\pard\intbl\ql {3}\cell
+\cellx7900
+\fs20\pard\intbl\ql {3}\cell
+\row}
+{\par}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {BW est. (h)}\cell
+\cellx5400
+\fs20\pard\intbl\ql {    0.011}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    0.012}\cell
+\row}
+\fs20 {Running variable: bac1.}\line
+{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx2900
+\fs20\pard\intbl\ql { Method }\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx5400
+\fs20\pard\intbl\ql { T}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx7900
+\fs20\pard\intbl\ql { P>T}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Conventional }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    0.534}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    0.594}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2900
+\fs20\pard\intbl\ql {Robust }\cell
+\cellx5400
+\fs20\pard\intbl\ql {    2.203}\cell
+\cellx7900
+\fs20\pard\intbl\ql {    0.028}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx7900\cell
+\row}
+
+
+\writepositionforappend
+}}
